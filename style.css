@@ -9,7 +9,6 @@
     grid-template-columns: repeat(3, 15rem);
     grid-template-rows: repeat(2, 15rem);
     gap: 1rem;
-
 }
 
 header {
@@ -18,7 +17,6 @@ header {
 }
 
 .cx {
-    background-color: aqua;
     width: 15rem;
     height: 15rem;
     padding: 10px;
