@@ -13,6 +13,7 @@ body {
     grid-template-columns: repeat(3, 25rem);
     grid-template-rows: repeat(2, 8rem);
     gap: 15rem;
+    
 }
 
 header {
@@ -20,6 +21,9 @@ header {
     margin-top: 4rem;
     color: white;
     text-transform: uppercase;
+    background-color: rgba(63, 63, 63, 0.959);
+    margin-top: 0;
+    padding: 2rem;
 }
 
 .cx {
