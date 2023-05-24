@@ -53,13 +53,18 @@ img {
     margin-top: 1rem;
 }
 
-.modal {
+.modal_cx {
+    margin-top: 4rem;
+}
+
+.modal1 {
     display: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80rem;
+    max-width: 90%;
     height: 40rem;
     background-color: rgba(0, 0, 0, 0.877);
     color: white;
@@ -67,10 +72,6 @@ img {
     padding: 2rem;
     font-size: 1.6rem;
     overflow: auto;
-}
-
-.modal_cx {
-    margin-top: 4rem;
 }
 
 .show-modal {
