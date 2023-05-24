@@ -57,7 +57,7 @@ img {
     margin-top: 4rem;
 }
 
-.modal1 {
+.modal1, .modal2, .modal3, .modal4, .modal5, .modal6 {
     display: none;
     position: fixed;
     top: 50%;
