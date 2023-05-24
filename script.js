@@ -1,24 +1,30 @@
 function btn_cx1() {
-    alert("Jonh foi clicado");
+    let modal = document.querySelector(".modal.modal1");
+    modal.classList.add("show-modal");
 }
 
 function btn_cx2() {
-    alert("Striani foi clicado!");
+    let modal = document.querySelector(".modal.modal2");
+    modal.classList.add("show-modal");
 }
 
 function btn_cx3() {
-    alert("Kiko foi clicado");
+    let modal = document.querySelector(".modal.modal3");
+    modal.classList.add("show-modal");
 }
 
 function btn_cx4() {
-    alert("A imagem foi clicada!");
+    let modal = document.querySelector(".modal.modal4");
+    modal.classList.add("show-modal");
 }
 
 function btn_cx5() {
-    alert("A imagem foi clicada!");
+    let modal = document.querySelector(".modal.modal5");
+    modal.classList.add("show-modal");
 }
 
 function btn_cx6() {
-    alert("A imagem foi clicada!");
+    let modal = document.querySelector(".modal.modal6");
+    modal.classList.add("show-modal");
 }
 
