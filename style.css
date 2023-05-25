@@ -16,10 +16,9 @@ body {
 
 header {
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: white;
     text-transform: uppercase;
-    background-color: rgba(63, 63, 63, 0.959);
     padding: 2rem;
 }
 
@@ -72,6 +71,10 @@ img {
     padding: 2rem;
     font-size: 1.6rem;
     overflow: auto;
+}
+
+iframe {
+    margin-top: 2rem;
 }
 
 .show-modal {
