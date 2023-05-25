@@ -6,6 +6,7 @@
 
 body {
     background-color: black;
+    overflow: hidden;
 }
 
 .container {
@@ -56,6 +57,19 @@ img {
     margin-top: 4rem;
 }
 
+.body_modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    gap: 2rem;
+    text-align: center;
+}
+
+.body_modal p {
+    text-align: justify;
+}
+
 .modal1, .modal2, .modal3, .modal4, .modal5, .modal6 {
     display: none;
     position: fixed;
@@ -71,7 +85,6 @@ img {
     padding: 2rem;
     font-size: 1.6rem;
     overflow: auto;
-    overflow: hidden;
 }
 
 iframe {
@@ -82,7 +95,9 @@ iframe {
     display: block !important;
 }
 
+/*
 .modal-open {
     opacity: 0.5;
 }
 
+*/
