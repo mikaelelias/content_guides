@@ -14,6 +14,13 @@ function btn_close_modal() {
     container.classList.remove("modal-open");
 }
 
+function next() {
+    let video = document.querySelector(".modal1_video");
+    video.style.display = "block";
+}
+
+/*---------------------------------------------------------------------------*/
+
 function btn_cx2() {
     let modal = document.querySelector(".modal2");
     modal.style.display = "block";

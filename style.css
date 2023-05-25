@@ -105,6 +105,32 @@ iframe {
     cursor: pointer;
 }
 
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: -5rem;
+    margin-left: 25rem;
+}
+
+.modal1_video {
+    display: none;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100rem;
+    max-width: 90%;
+    height: 60rem;
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.6rem;
+    overflow: auto;
+}
+
 /*
 .modal-open {
     opacity: 0.5;
