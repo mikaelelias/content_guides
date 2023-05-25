@@ -71,6 +71,7 @@ img {
     padding: 2rem;
     font-size: 1.6rem;
     overflow: auto;
+    overflow: hidden;
 }
 
 iframe {
@@ -80,3 +81,8 @@ iframe {
 .show-modal {
     display: block !important;
 }
+
+.modal-open {
+    opacity: 0.5;
+}
+
