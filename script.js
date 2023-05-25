@@ -2,8 +2,8 @@ function btn_cx1() {
     let modal = document.querySelector(".modal1");
     modal.style.display = "block";
 
-    let container = document.querySelector(".container");
-    container.classList.add("modal-open");
+    let caixas = document.querySelector(".caixas");
+    caixas.classList.add("modal-open");
 }
 
 function btn_cx2() {
@@ -37,7 +37,6 @@ function btn_cx5() {
     let container = document.querySelector(".container");
     container.classList.add("modal-open");
 }
-
 
 function btn_cx6() {
     let modal = document.querySelector(".modal6");
