@@ -14,7 +14,7 @@ function btn_close_modal() {
     container.classList.remove("modal-open");
 }
 
-function next() {
+function next1() {
     let video = document.querySelector(".modal1_video");
     video.style.display = "block";
 }
@@ -37,7 +37,12 @@ function btn_close_modal2() {
     container.classList.remove("modal-open");
 }
 
+function next2() {
+    let video = document.querySelector(".modal2_video");
+    video.style.display = "block";
+}
 
+/*---------------------------------------------------------------------------*/
 function btn_cx3() {
     let modal = document.querySelector(".modal3");
     modal.style.display = "block";
@@ -53,6 +58,13 @@ function btn_close_modal3() {
     let container = document.querySelector(".container");
     container.classList.remove("modal-open");
 }
+
+function next3() {
+    let video = document.querySelector(".modal3_video");
+    video.style.display = "block";
+}
+
+/*---------------------------------------------------------------------------*/
 
 function btn_cx4() {
     let modal = document.querySelector(".modal4");
@@ -70,6 +82,13 @@ function btn_close_modal4() {
     container.classList.remove("modal-open");
 }
 
+function next4() {
+    let video = document.querySelector(".modal4_video");
+    video.style.display = "block";
+}
+
+/*---------------------------------------------------------------------------*/
+
 function btn_cx5() {
     let modal = document.querySelector(".modal5");
     modal.style.display = "block";
@@ -86,6 +105,13 @@ function btn_close_modal5() {
     container.classList.remove("modal-open");
 }
 
+function next5() {
+    let video = document.querySelector(".modal5_video");
+    video.style.display = "block";
+}
+
+/*---------------------------------------------------------------------------*/
+
 function btn_cx6() {
     let modal = document.querySelector(".modal6");
     modal.style.display = "block";
@@ -101,3 +127,11 @@ function btn_close_modal6() {
     let container = document.querySelector(".container");
     container.classList.remove("modal-open");
 }
+
+function next6() {
+    let video = document.querySelector(".modal6_video");
+    video.style.display = "block";
+}
+
+/*---------------------------------------------------------------------------*/
+

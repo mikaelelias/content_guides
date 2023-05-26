@@ -114,7 +114,7 @@ iframe {
     margin-left: 25rem;
 }
 
-.modal1_video {
+.modal1_video, .modal2_video, .modal3_video, .modal4_video, .modal5_video, .modal6_video {
     display: none;
     position: fixed;
     top: 70%;
