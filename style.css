@@ -1,6 +1,5 @@
 * {
     margin: 0 auto;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -17,27 +16,29 @@ body {
 
 header {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
     color: white;
     text-transform: uppercase;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .caixas {
     display: grid;
     justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(3, 25rem);
     grid-template-rows: repeat(2, 8rem);
-    gap: 12rem;
-    margin-top: 1rem;
+    gap: 15rem;
+    margin-top: 3rem;
 }
 
 .cx {
     position: relative;
-    margin-top: 2rem;
-    width: 23rem;
-    height: 15rem;
+    margin-top: 6rem;
+    width: 32rem;
+    height: 22rem;
     border-radius: 5px;
+    gap: 2rem;
 }
 
 img {
@@ -190,4 +191,51 @@ iframe {
     header {
         margin-top: 0.1rem;
     }
+}
+
+
+@media (max-width: 1500px) {
+    .caixas {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 8rem);
+    grid-template-rows: repeat(2, 8rem);
+    gap: 12rem;
+    margin-top: 1rem;
+}
+
+    img {
+        max-width: 60%;
+        max-height: 60%;
+    }
+}
+
+@media (max-width: 1071px) {
+    body {
+        margin: 0 auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    header {
+        text-align: center;
+        margin-top: 2rem;
+        color: white;
+        text-transform: uppercase;
+        padding: 1rem;
+    }
+
+    header h {
+        text-align: 10px;
+    }
+
+    .caixas {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 15rem);
+        grid-template-rows: repeat(2, 8rem);
+        gap: 3rem;
+        margin-top: -2rem;
+    }
+    
 }
