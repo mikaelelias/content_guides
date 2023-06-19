@@ -8,3 +8,5 @@ O código JavaScript controla o comportamento da página, mostrando e ocultando 
 
 O desafio desse projeto era a criação de uma janela modal.
 Projeto em construção!
+
+- Deploy: https://mikaelelias.github.io/content_guides/
